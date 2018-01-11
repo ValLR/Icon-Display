@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+img.disabled-icon {
+	opacity:0.5;
+}
